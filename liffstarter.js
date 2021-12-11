@@ -10,13 +10,13 @@ function getP() {
     document.getElementById('profilex').addEventListener('click', function() {
       liff.sendMessages([{
         type: 'template',
-        altText: 'HELLTERHEAD Corp.',
+        altText: 'Line bots.',
         template: {
           type: 'buttons',
           thumbnailImageUrl: 'https://github.com/HELLTERHEAD-Corp/HELLTERHEAD-Corp.github.io/blob/main/assets/M_hlth_profile.png',
           imageAspectRatio: 'square',
           imageSize: 'cover',
-          title: 'HELLTERHEAD Corp.',
+          title: 'Line bots.',
           text: 'LINE Future 伝令',
           actions: [
             {
@@ -35,9 +35,9 @@ function getP() {
         type: 'text',
         text: 'This is a small web application that demonstrates the basic functionality of the LINE Front-end Framework (LIFF).',
         sentBy: {
-          label: 'HELLTERHEAD Corp.',
+          label: 'Line bots.',
           iconUrl: 'https://github.com/HELLTERHEAD-Corp/HELLTERHEAD-Corp.github.io/blob/main/assets/hlth_logo.gif',
-          linkUrl: 'https://line.me/ti/p/~mo-banzu'
+          linkUrl: 'https://line.me/ti/p/~hh7o'
         }
       }]).then(function() {
         liff.closeWindow();
@@ -49,9 +49,9 @@ function getP() {
         originalContentUrl: 'https://github.com/HELLTERHEAD-Corp/HELLTERHEAD-Corp.github.io/blob/main/assets/M_hlth_profile.png',
         previewImageUrl: 'https://github.com/HELLTERHEAD-Corp/HELLTERHEAD-Corp.github.io/blob/main/assets/M_hlth_profile.png',
         sentBy: {
-          label: 'HELLTERHEAD Corp.',
+          label: 'Line bots.',
           iconUrl: 'https://github.com/HELLTERHEAD-Corp/HELLTERHEAD-Corp.github.io/blob/main/assets/hlth_logo.gif',
-          linkUrl: 'https://line.me/ti/p/~mo-banzu'
+          linkUrl: 'https://line.me/ti/p/~hh7o'
         }
       }]).then(function() {
         liff.closeWindow();
