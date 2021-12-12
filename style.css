@@ -32,6 +32,7 @@ body {
 }
 
 .container {
+  font-family:cursive;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -85,7 +86,7 @@ p {
 }
 
 .effect:hover {
-  background-color: rgba(0, 0, 0, 0.753);
+  background-color: rgba(0, 0, 0, 0.438);
 }
 
 .effect:hover span {
