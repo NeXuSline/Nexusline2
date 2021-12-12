@@ -32,7 +32,6 @@ body {
 }
 
 .container {
-  font-family:cursive;
   align-items: center;
   display: flex;
   flex-direction: column;
